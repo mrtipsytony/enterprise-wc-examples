@@ -16,7 +16,16 @@ const IdsCard = () => {
                 Card Title One
               </ids-text>
             </div>
-            <div slot="card-content"></div>
+            <div slot="card-content">
+              <ids-text font-size="20" type="h2" overflow="ellipsis" tooltip="true">
+                Card Content One
+              </ids-text>
+            </div>
+            <div slot="card-footer">
+              <ids-text font-size="20" type="h2" overflow="ellipsis" tooltip="true">
+                Card Footer One
+              </ids-text>
+            </div>
           </ids-card>
         </IdsGridCell>
         <IdsGridCell>
